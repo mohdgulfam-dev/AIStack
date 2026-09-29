@@ -1,0 +1,230 @@
+name: aistack
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+4
+
+environment:
+  sdk: ^3.12.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.1.0
+  lucide_icons_flutter: ^3.1.14+2
+  flutter_riverpod: ^3.3.2
+  url_launcher: ^6.3.2
+  intl: ^0.20.3
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+   sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_lints: ^6.0.0
+     
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_logo.webp"
+  remove_alpha_ios: true
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     #icons
+    - assets/icons/automation.webp
+    - assets/icons/chat.webp
+    - assets/icons/coding.webp
+    - assets/icons/design.webp
+    - assets/icons/imgGen.webp
+    - assets/icons/research.webp
+    - assets/icons/vidGen.webp
+    - assets/icons/audio.webp
+    - assets/icons/writing.webp
+    - assets/icons/vidEditing.webp
+    - assets/icons/presentations.webp
+    - assets/icons/dataAnalytics.webp
+    - assets/icons/threeDGen.webp
+    
+   
+
+    #tools logos
+    - assets/logos/Adobe Firefly.webp
+    - assets/logos/Adobe Podcast.webp
+    - assets/logos/Aider.webp
+    - assets/logos/Akkio.webp
+    - assets/logos/Amazon Q Developer.webp
+    - assets/logos/aws.webp
+    - assets/logos/Beautiful.ai.webp
+    - assets/logos/Bolt.new.webp
+    - assets/logos/Canva.webp
+    - assets/logos/CapCut.webp
+    - assets/logos/character.ai.webp
+    - assets/logos/ChatGPT.webp
+    - assets/logos/Claude.webp
+    - assets/logos/Consensus.webp
+    - assets/logos/Copy.ai.webp
+    - assets/logos/Cursor.webp
+    - assets/logos/Claude Code.webp
+    - assets/logos/Decktopus.webp
+    - assets/logos/DeepL Write.webp
+    - assets/logos/DeepSeek.webp
+    - assets/logos/Descript.webp
+    - assets/logos/Devin.webp
+    - assets/logos/ElevenLabs.webp
+    - assets/logos/Elicit.webp
+    - assets/logos/Exa.webp
+    - assets/logos/Figma.webp
+    - assets/logos/Filmora.webp
+    - assets/logos/Flux.webp
+    - assets/logos/Framer AI.webp
+    - assets/logos/Gamma.webp
+    - assets/logos/Gemini.webp
+    - assets/logos/Genspark.webp
+    - assets/logos/GitHub Copilot.webp
+    - assets/logos/Google Stitch.webp
+    - assets/logos/Grammarly.webp
+    - assets/logos/Grok.webp
+    - assets/logos/Gumloop.webp
+    - assets/logos/Hailuo.webp
+    - assets/logos/Hex.webp
+    - assets/logos/HeyGen.webp
+    - assets/logos/Ideogram.webp
+    - assets/logos/Jasper.webp
+    - assets/logos/Julius AI.webp
+    - assets/logos/Kaedim.webp
+    - assets/logos/Kapwing.webp
+    - assets/logos/Kling.webp
+    - assets/logos/Leonardo.Ai.webp
+    - assets/logos/Lindy.webp
+    - assets/logos/Looka.webp
+    - assets/logos/Lovable.webp
+    - assets/logos/LOVO.webp
+    - assets/logos/Luma AI (3D Capture).webp
+    - assets/logos/Luma Dream Machine.webp
+    - assets/logos/Make.webp
+    - assets/logos/Manus.webp
+    - assets/logos/Meshy.webp
+    - assets/logos/Meta AI.webp
+    - assets/logos/Microsoft Copilot.webp
+    - assets/logos/Midjourney.webp
+    - assets/logos/Mistral Vibe.webp
+    - assets/logos/Murf.webp
+    - assets/logos/n8n.webp
+    - assets/logos/NotebookLM.webp
+    - assets/logos/Opus Clip.webp
+    - assets/logos/Otter.ai.webp
+    - assets/logos/Perplexity.webp
+    - assets/logos/Pi.webp
+    - assets/logos/Pika.webp
+    - assets/logos/Pitch.webp
+    - assets/logos/Play.ht.webp
+    - assets/logos/Playground AI.webp
+    - assets/logos/Premiere Pro.webp
+    - assets/logos/ProWritingAid.webp
+    - assets/logos/QuillBot.webp
+    - assets/logos/Qwen.webp
+    - assets/logos/Recraft.webp
+    - assets/logos/Relevance AI.webp
+    - assets/logos/Replit AI.webp
+    - assets/logos/Rodin (Hyper3D).webp
+    - assets/logos/Rows.webp
+    - assets/logos/Runway.webp
+    - assets/logos/Rytr.webp
+    - assets/logos/SciSpace.webp
+    - assets/logos/Slidebean.webp
+    - assets/logos/Spline AI.webp
+    - assets/logos/Stable Diffusion.webp
+    - assets/logos/Sudowrite.webp
+    - assets/logos/Suno.webp
+    - assets/logos/Synthesia.webp
+    - assets/logos/Tableau.webp
+    - assets/logos/tabnine.webp
+    - assets/logos/Udio.webp
+    - assets/logos/Uizard.webp
+    - assets/logos/v0.webp
+    - assets/logos/Whisper.webp
+    - assets/logos/Windsurf.webp
+    - assets/logos/Wisecut.webp
+    - assets/logos/Wordtune.webp
+    - assets/logos/Writesonic.webp
+    - assets/logos/You.com.webp
+    - assets/logos/Zapier.webp
+
+    #about AIStack image
+    - assets/about AIStack.webp
+
+    #appLogo
+    - assets/app_logo.webp
+  
+
+   
+
+    
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
