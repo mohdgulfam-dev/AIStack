@@ -37,7 +37,7 @@ class CategoriesCard extends ConsumerWidget {
           ref
               .read(categoryDetailsCardProvider.notifier)
               .openCategoryTools(category);
-          //for categoryDetails cards as per the category
+          //open category details cards as per the category
           openCategoriesDetailsScreen(category);
         },
         child: LayoutBuilder(
