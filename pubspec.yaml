@@ -197,6 +197,15 @@ flutter:
 
     #appLogo
     - assets/app_logo.webp
+
+    #appScreenShots
+    - assets/screenshots/categories_screen.webp
+    - assets/screenshots/category_details _screen.webp
+    - assets/screenshots/favorite_screen.webp
+    - assets/screenshots/filter_screen.webp
+    - assets/screenshots/home_screen.webp
+    
+
   
 
    
