@@ -233,3 +233,5 @@ Please do not copy the entire AIStack app and publish it as your own app on the 
 ---
 
 **AIStack — Discover AI. Find the right tools with ease.**
+flutter config --enable-web
+flutter create . --platforms web   # only if your project has no /web folder

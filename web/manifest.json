@@ -1,6 +1,6 @@
 {
-    "name": "aistack",
-    "short_name": "aistack",
+    "name": "AIStack",
+    "short_name": "AIStack",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
