@@ -232,4 +232,4 @@ Please do not copy the entire AIStack app and publish it as your own app on the 
 
 ---
 
-**AIStack — Discover AI. Find the right tools.**
+**AIStack — Discover AI. Find the right tools with ease.**
