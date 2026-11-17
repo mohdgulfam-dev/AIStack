@@ -1,7 +1,7 @@
 import 'package:aistack/core/constants/spacing.dart';
 import 'package:aistack/data/ai_tool_data.dart';
 import 'package:aistack/features/category_details/widgets/details_card.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class AppSearchBar extends StatefulWidget {
   const AppSearchBar({super.key});

@@ -40,6 +40,7 @@ dependencies:
   url_launcher: ^6.3.2
   intl: ^0.20.3
   shared_preferences: ^2.5.5
+  material_ui: ^1.11.1
 
 dev_dependencies:
   flutter_test:
