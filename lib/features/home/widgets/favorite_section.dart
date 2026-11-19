@@ -2,7 +2,7 @@ import 'package:aistack/data/ai_tool_data.dart';
 import 'package:aistack/features/favorites/widgets/favorite_card.dart';
 import 'package:aistack/features/shared/widgets/section_header.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class FavoriteSection extends StatelessWidget {
   const FavoriteSection({super.key});
@@ -11,7 +11,7 @@ class FavoriteSection extends StatelessWidget {
     return Column(
       children: [
         SectionHeader(leadingIcon: Icons.star, title: 'Favorite'),
-        SizedBox(height: 4,),
+        SizedBox(height: 4),
         SizedBox(
           height: 165,
           child: ListView.builder(
@@ -27,7 +27,6 @@ class FavoriteSection extends StatelessWidget {
             },
           ),
         ),
-        
       ],
     );
   }

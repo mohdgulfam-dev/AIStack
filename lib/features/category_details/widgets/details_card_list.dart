@@ -1,6 +1,6 @@
 import 'package:aistack/features/category_details/widgets/details_card.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class CardsInCategories extends StatelessWidget {
   const CardsInCategories({super.key, required this.tools});

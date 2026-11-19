@@ -1,6 +1,6 @@
 import 'package:aistack/core/utils/text_helper.dart';
 import 'package:aistack/features/navigation/provider/pages_provider.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
@@ -68,15 +68,14 @@ class EmptyFavorite extends ConsumerWidget {
                     mainAxisSize: MainAxisSize.min,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                     
-                        Text(
-                          'Explore Tools',
-                          textAlign: TextAlign.center,
-                          style: theme.textTheme.titleSmall!.copyWith(
-                            color: theme.colorScheme.primary,
-                          ),
+                      Text(
+                        'Explore Tools',
+                        textAlign: TextAlign.center,
+                        style: theme.textTheme.titleSmall!.copyWith(
+                          color: theme.colorScheme.primary,
                         ),
-                    
+                      ),
+
                       const SizedBox(width: 8),
                       Icon(
                         Icons.arrow_forward,

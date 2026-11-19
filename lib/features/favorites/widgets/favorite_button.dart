@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class FavoriteButton extends StatelessWidget {
   const FavoriteButton({super.key});
@@ -9,8 +9,7 @@ class FavoriteButton extends StatelessWidget {
       child: Icon(
         Icons.star,
         size: 17,
-        color: Theme.of(context).colorScheme.primary
-        ,
+        color: Theme.of(context).colorScheme.primary,
       ),
     );
   }

@@ -2,14 +2,14 @@ import 'package:aistack/data/ai_tool_data.dart';
 import 'package:aistack/features/home/widgets/recent_toll.dart';
 import 'package:aistack/features/shared/widgets/section_header.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class RecentToolList extends StatelessWidget {
   const RecentToolList({super.key});
 
   @override
   Widget build(BuildContext context) {
-        return SliverMainAxisGroup(
+    return SliverMainAxisGroup(
       slivers: [
         // Section Header
         SliverToBoxAdapter(

@@ -1,5 +1,5 @@
 import 'package:aistack/features/filters/widgets/filter_checkbox.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class FilterTile extends StatelessWidget {
   const FilterTile({
@@ -34,15 +34,15 @@ class FilterTile extends StatelessWidget {
             ),
           ),
 
-         const SizedBox(width: 8),
+          const SizedBox(width: 8),
           Text(
             category,
             style: theme.textTheme.titleSmall!.copyWith(
               color: theme.colorScheme.onSurface,
             ),
           ),
-         const  Spacer(),
-         FilterCheckbox(isSelected: value),
+          const Spacer(),
+          FilterCheckbox(isSelected: value),
         ],
       ),
     );

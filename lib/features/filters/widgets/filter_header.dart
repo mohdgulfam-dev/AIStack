@@ -1,6 +1,6 @@
 import 'package:aistack/features/filters/provider/draft_filter_provider.dart';
 import 'package:aistack/features/shared/widgets/buttons/square_icon_button.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
@@ -56,7 +56,7 @@ class FilterHeader extends ConsumerWidget {
               ),
             ],
           ),
-          const SizedBox(height: 8,),
+          const SizedBox(height: 8),
           Divider(color: theme.colorScheme.primary.withValues(alpha: .2)),
         ],
       ),

@@ -1,7 +1,7 @@
 import 'package:aistack/features/home/provider/recently_used_provider.dart';
 import 'package:aistack/features/home/widgets/recent_list_tile/empty_recently_used.dart';
 import 'package:aistack/features/home/widgets/recent_list_tile/recent_list_tile.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class FinalRecentTile extends ConsumerWidget {

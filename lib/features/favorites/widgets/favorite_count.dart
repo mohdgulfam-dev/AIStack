@@ -1,12 +1,11 @@
 import 'package:aistack/features/favorites/provider/manage_favorite_provider.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
-
 class FavoriteCount extends ConsumerWidget {
   const FavoriteCount({super.key});
- 
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final favorite = ref.watch(manageFavoriteProvider);

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 class AboutHighlightedCard extends StatelessWidget {
@@ -9,11 +9,11 @@ class AboutHighlightedCard extends StatelessWidget {
     final theme = Theme.of(context);
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
-      child:  Card(
+      child: Card(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
           side: BorderSide(
-            color:  theme.colorScheme.primary.withValues(alpha: .8),
+            color: theme.colorScheme.primary.withValues(alpha: .8),
           ),
         ),
         color: theme.colorScheme.surfaceContainerLow.withValues(alpha: .3),

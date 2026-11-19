@@ -1,7 +1,7 @@
 import 'package:aistack/data/ai_tool_data.dart';
 import 'package:aistack/data/repositories/favorite_repository.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class AddFavoriteProviderClass extends AsyncNotifier<List<AiTool>> {
@@ -30,7 +30,7 @@ class AddFavoriteProviderClass extends AsyncNotifier<List<AiTool>> {
 
     await persist(favorites);
 
-    if(!context.mounted) return ;
+    if (!context.mounted) return;
 
     final messenger = ScaffoldMessenger.of(context);
     messenger.clearSnackBars();

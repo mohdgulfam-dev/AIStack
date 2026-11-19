@@ -2,7 +2,7 @@ import 'package:aistack/features/about_screen.dart/widgets/about_highlighted_car
 import 'package:aistack/features/about_screen.dart/widgets/about_tile_list.dart';
 
 import 'package:aistack/features/about_screen.dart/widgets/app_identity_row.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});

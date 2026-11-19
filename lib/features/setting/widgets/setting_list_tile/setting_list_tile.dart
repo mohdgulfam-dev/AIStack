@@ -2,7 +2,7 @@ import 'package:aistack/features/about_screen.dart/about_screen.dart';
 import 'package:aistack/features/setting/widgets/setting_list_tile/setting_tile.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:aistack/models/profile_action.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:aistack/core/utils/lauchTool.dart';
 
 class SettingListTile extends StatelessWidget {
@@ -27,9 +27,11 @@ class SettingListTile extends StatelessWidget {
         title: 'Share AIStack',
         subtitle: 'Share the app with your friends',
         iconData: LucideIcons.share2,
-        function: () { launchTool(
+        function: () {
+          launchTool(
             "https://play.google.com/store/apps/details?id=com.mohdgulfam.aistack",
-          );},
+          );
+        },
         color: theme.colorScheme.secondary,
       ),
       ProfileAction(

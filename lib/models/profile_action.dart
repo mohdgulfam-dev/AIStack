@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class ProfileAction {
   const ProfileAction({
@@ -6,7 +6,7 @@ class ProfileAction {
     required this.subtitle,
     required this.iconData,
     required this.function,
-    required this.color
+    required this.color,
   });
   final String title;
   final String subtitle;

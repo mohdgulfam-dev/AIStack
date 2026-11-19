@@ -1,7 +1,7 @@
 import 'package:aistack/features/filters/filter_screen.dart';
 import 'package:aistack/features/filters/provider/final_filter_provider.dart';
 import 'package:aistack/features/shared/widgets/buttons/square_icon_button.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 

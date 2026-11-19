@@ -1,7 +1,7 @@
 import 'package:aistack/data/ai_tool_data.dart';
 import 'package:aistack/features/categories/widgets/category_card.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:aistack/core/constants/spacing.dart';
 
 class CategoryCardList extends StatelessWidget {

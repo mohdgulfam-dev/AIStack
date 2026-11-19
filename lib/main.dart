@@ -1,7 +1,7 @@
 import 'package:aistack/core/theme/theme.dart';
 import 'package:aistack/features/navigation/main_navigation_screen.dart';
 import 'package:aistack/features/setting/provider/theme_provider.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {

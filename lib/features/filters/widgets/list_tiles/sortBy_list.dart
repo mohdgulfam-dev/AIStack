@@ -2,7 +2,7 @@ import 'package:aistack/core/utils/text_helper.dart';
 import 'package:aistack/data/profile_screen_data/profile_sortBy_data.dart';
 import 'package:aistack/features/filters/provider/draft_filter_provider.dart';
 import 'package:aistack/features/filters/widgets/filter_tile.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class ProfileSortByList extends ConsumerWidget {

@@ -1,7 +1,7 @@
 import 'package:aistack/features/favorites/provider/favorite_pricing_sort_provider.dart';
 import 'package:aistack/features/shared/widgets/card/empty_favorite.dart';
 import 'package:aistack/features/shared/widgets/card/favorite_card.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

@@ -1,8 +1,12 @@
 import 'package:aistack/core/constants/spacing.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class AppSearchBar extends StatelessWidget {
-  const AppSearchBar({super.key, required this.onTapSearchBar, required this.text});
+  const AppSearchBar({
+    super.key,
+    required this.onTapSearchBar,
+    required this.text,
+  });
   final VoidCallback onTapSearchBar;
   final String text;
 

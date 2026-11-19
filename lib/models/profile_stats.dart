@@ -1,5 +1,5 @@
 import 'package:aistack/features/setting/widgets/stats_section/activity_stats.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class ProfileStats {
   const ProfileStats({

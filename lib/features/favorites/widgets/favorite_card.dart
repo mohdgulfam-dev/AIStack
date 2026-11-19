@@ -1,7 +1,7 @@
 import 'package:aistack/core/utils/text_helper.dart';
 import 'package:aistack/features/categories/widgets/category_chip.dart';
 import 'package:aistack/features/favorites/widgets/favorite_button.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:aistack/core/constants/spacing.dart';
 
 class FavoriteCard extends StatelessWidget {
@@ -24,7 +24,7 @@ class FavoriteCard extends StatelessWidget {
     return SizedBox(
       width: (screenWidth * .25).clamp(90.0, 110.0) * 1.33,
       child: Card(
-               child: Padding(
+        child: Padding(
           padding: const EdgeInsets.only(
             top: AppSpacing.s8,
             left: AppSpacing.s8,

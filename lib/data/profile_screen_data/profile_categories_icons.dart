@@ -1,5 +1,5 @@
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 const Map<AiCategory, IconData> profileCategoryIcons = {
@@ -16,5 +16,4 @@ const Map<AiCategory, IconData> profileCategoryIcons = {
   AiCategory.dataAnalytics: LucideIcons.chartColumn,
   AiCategory.automation: LucideIcons.bot,
   AiCategory.threeDGen: LucideIcons.box,
-  
 };

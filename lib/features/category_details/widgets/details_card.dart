@@ -1,7 +1,7 @@
 import 'package:aistack/features/shared/widgets/buttons/favorite_button.dart';
 import 'package:aistack/features/home/provider/recently_used_provider.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:aistack/core/utils/lauchTool.dart';
 
@@ -30,7 +30,7 @@ class CategoryDetailsCard extends ConsumerWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.only(top: 8),
-                child:  Image.asset(aiTool.iconPath, height: 40),
+                child: Image.asset(aiTool.iconPath, height: 40),
               ),
               const SizedBox(width: 16),
               Expanded(

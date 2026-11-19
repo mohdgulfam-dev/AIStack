@@ -1,6 +1,6 @@
 import 'package:aistack/data/about_screen_data.dart';
 import 'package:aistack/features/about_screen.dart/widgets/about_tile.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class AboutTileList extends StatelessWidget {
   const AboutTileList({super.key});

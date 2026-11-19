@@ -3,7 +3,7 @@ import 'package:aistack/features/category_details/widgets/category_details_heade
 import 'package:aistack/features/category_details/widgets/details_card_list.dart';
 import 'package:aistack/features/shared/widgets/filters_chip.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class CategoriesDetailsScreen extends ConsumerWidget {

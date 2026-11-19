@@ -1,7 +1,7 @@
 import 'package:aistack/features/favorites/provider/manage_favorite_provider.dart';
 import 'package:aistack/features/shared/widgets/card/empty_favorite.dart';
 import 'package:aistack/features/shared/widgets/card/favorite_card.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class FavoriteToolsList extends ConsumerWidget {
@@ -11,7 +11,7 @@ class FavoriteToolsList extends ConsumerWidget {
     final favoriteToolList = ref.watch(manageFavoriteProvider).value ?? [];
 
     if (favoriteToolList.isEmpty) {
-      return SliverToBoxAdapter(child: const  EmptyFavorite());
+      return SliverToBoxAdapter(child: const EmptyFavorite());
     } else {
       return SliverToBoxAdapter(
         child: Padding(

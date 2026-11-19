@@ -3,7 +3,7 @@ import 'package:aistack/features/favorites/favorites_screen.dart';
 import 'package:aistack/features/home/home_screen.dart';
 import 'package:aistack/features/navigation/provider/pages_provider.dart';
 import 'package:aistack/features/navigation/widgets/app_bottom_nav_bar.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class MainNavigationScreen extends ConsumerWidget {

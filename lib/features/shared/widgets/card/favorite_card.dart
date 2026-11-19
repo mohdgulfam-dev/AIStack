@@ -5,7 +5,7 @@ import 'package:aistack/features/setting/provider/explored_provider.dart';
 import 'package:aistack/features/shared/widgets/app_category_chip.dart';
 import 'package:aistack/features/shared/widgets/buttons/favorite_button.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:aistack/core/constants/spacing.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:aistack/core/utils/lauchTool.dart';

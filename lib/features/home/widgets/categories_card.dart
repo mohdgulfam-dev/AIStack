@@ -2,7 +2,7 @@ import 'package:aistack/core/utils/text_helper.dart';
 import 'package:aistack/features/category_details/categories_details_screen.dart';
 import 'package:aistack/features/home/provider/category_details_cards_provider.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:aistack/core/constants/spacing.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

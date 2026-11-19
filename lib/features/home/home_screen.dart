@@ -3,7 +3,7 @@ import 'package:aistack/features/home/widgets/recent_list_tile/final_recent_tile
 import 'package:aistack/features/navigation/provider/pages_provider.dart';
 import 'package:aistack/features/shared/widgets/search_filter_bar.dart';
 import 'package:aistack/features/shared/widgets/section_header.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:aistack/features/home/widgets/categories_section.dart';
 import 'package:aistack/features/shared/widgets/app_header.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

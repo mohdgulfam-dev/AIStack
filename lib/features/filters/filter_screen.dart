@@ -5,7 +5,7 @@ import 'package:aistack/features/filters/widgets/list_tiles/category_filter_list
 import 'package:aistack/features/filters/widgets/list_tiles/pricing_list_tile.dart';
 import 'package:aistack/features/filters/widgets/list_tiles/sortBy_list.dart';
 import 'package:aistack/features/filters/widgets/filter_section_header.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 

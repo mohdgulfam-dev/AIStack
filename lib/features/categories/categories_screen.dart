@@ -7,10 +7,9 @@ import 'package:aistack/features/shared/widgets/app_header.dart';
 import 'package:aistack/features/shared/widgets/search_filter_bar.dart';
 import 'package:aistack/features/shared/widgets/section_header.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
-
 
 class _CategorySectionConfig {
   const _CategorySectionConfig({

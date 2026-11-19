@@ -4,7 +4,7 @@ import 'package:aistack/features/setting/widgets/setting_list_tile/setting_list_
 import 'package:aistack/features/setting/widgets/theme_setting_section/app_theme_section.dart';
 import 'package:aistack/features/setting/widgets/section_text.dart';
 import 'package:aistack/features/shared/widgets/buttons/square_icon_button.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 class SettingScreen extends StatelessWidget {

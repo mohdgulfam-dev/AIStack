@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class CategoryChip extends StatelessWidget {
   const CategoryChip({super.key, required this.title});
@@ -9,14 +9,18 @@ class CategoryChip extends StatelessWidget {
     final theme = Theme.of(context);
     return Chip(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 0),
-      shape: RoundedRectangleBorder(side: BorderSide(width: .5, color: Theme.of(context).colorScheme.primary),
-        borderRadius: BorderRadius.circular(20), ),
+      shape: RoundedRectangleBorder(
+        side: BorderSide(
+          width: .5,
+          color: Theme.of(context).colorScheme.primary,
+        ),
+        borderRadius: BorderRadius.circular(20),
+      ),
       backgroundColor: theme.colorScheme.surfaceContainer,
       label: Text(
         title,
         style: theme.textTheme.labelSmall!.copyWith(
           color: theme.colorScheme.primary,
-         
         ),
       ),
       labelPadding: EdgeInsets.zero,

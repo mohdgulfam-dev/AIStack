@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class SettingTile extends StatelessWidget {
   const SettingTile({
@@ -7,7 +7,7 @@ class SettingTile extends StatelessWidget {
     required this.iconData,
     required this.subTitle,
     required this.onTap,
-    required this.color
+    required this.color,
   });
   final String title;
   final IconData iconData;

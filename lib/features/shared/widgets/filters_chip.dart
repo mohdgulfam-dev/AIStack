@@ -3,7 +3,7 @@ import 'package:aistack/features/category_details/provider/category_pricing_sort
 import 'package:aistack/features/favorites/provider/favorite_pricing_sort_provider.dart';
 import 'package:aistack/features/shared/widgets/app_category_chip.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class FiltersChip extends ConsumerWidget {

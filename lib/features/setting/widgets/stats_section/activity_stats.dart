@@ -2,7 +2,7 @@ import 'package:aistack/data/ai_tool_data.dart';
 import 'package:aistack/features/favorites/provider/manage_favorite_provider.dart';
 import 'package:aistack/features/setting/provider/explored_provider.dart';
 import 'package:aistack/features/setting/widgets/stats_section/stats_column.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:aistack/models/profile_stats.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
@@ -18,7 +18,7 @@ class ActivityStats extends ConsumerWidget {
     final favoriteCount = favoriteValue.length;
     final exploredNumber = ref.watch(exploredProvider).value ?? 0;
 
-    final List<ProfileStats> profileStatsData  =  [
+    final List<ProfileStats> profileStatsData = [
       ProfileStats(
         title: 'Favorites',
         count: favoriteCount,
@@ -65,16 +65,16 @@ class ActivityStats extends ConsumerWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
 
               children: [
-                for (int i = 0; i < profileStatsData .length; i++) ...[
+                for (int i = 0; i < profileStatsData.length; i++) ...[
                   Expanded(
                     child: StatsColumn(
-                      iconData: profileStatsData [i].iconData,
-                      count: profileStatsData [i].count,
-                      title: profileStatsData [i].title,
-                      color: getColor(profileStatsData [i].statType),
+                      iconData: profileStatsData[i].iconData,
+                      count: profileStatsData[i].count,
+                      title: profileStatsData[i].title,
+                      color: getColor(profileStatsData[i].statType),
                     ),
                   ),
-                  if (i < profileStatsData .length - 1)
+                  if (i < profileStatsData.length - 1)
                     VerticalDivider(
                       indent: 8,
                       endIndent: 8,

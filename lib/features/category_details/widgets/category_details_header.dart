@@ -2,7 +2,7 @@ import 'package:aistack/core/utils/text_helper.dart';
 import 'package:aistack/data/ai_tool_data.dart';
 import 'package:aistack/features/shared/widgets/buttons/square_icon_button.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class CategoryDetailsHeader extends StatelessWidget {
   const CategoryDetailsHeader({super.key, required this.category});

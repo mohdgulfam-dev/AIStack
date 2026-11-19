@@ -1,6 +1,6 @@
 import 'package:aistack/core/utils/text_helper.dart';
 import 'package:aistack/models/ai_tool.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:aistack/core/utils/lauchTool.dart';
 
 class RecentSingleTile extends StatelessWidget {
